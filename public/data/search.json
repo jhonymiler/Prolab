@@ -1,0 +1,19 @@
+{
+    "listItems": [
+        {
+            "name": "Analítico",
+            "url": "/",
+            "icon": "home"
+        },
+        {
+            "name": "Config",
+            "url": "config",
+            "icon": "gear"
+        },
+        {
+            "name": "Usuários",
+            "url": "users",
+            "icon": "user"
+        }
+    ]
+}

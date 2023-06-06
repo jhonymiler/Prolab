@@ -1,0 +1,1 @@
+$((function(){"use strict";const e=document.querySelector("#selectAll"),c=document.querySelectorAll('[type="checkbox"]');e.addEventListener("change",(e=>{c.forEach((c=>{c.checked=e.target.checked}))}))}));

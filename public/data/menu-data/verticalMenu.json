@@ -1,0 +1,194 @@
+{
+    "menu": [
+        {
+            "name": "Dashboards",
+            "badge": "1",
+            "badgeClass": "badge badge-light-warning rounded-pill ms-auto me-1",
+            "icon": "home",
+            "slug": "",
+            "submenu": [
+                {
+                    "url": "/",
+                    "name": "Analítico",
+                    "icon": "circle",
+                    "slug": "dashboard-ecommerce"
+                }
+            ]
+        },
+        {
+            "navheader": "Administrativo",
+            "slug": ""
+        },
+        {
+            "name": "Configurações",
+            "icon": "settings",
+            "slug": "config",
+            "permission": [
+                "configuracoes"
+            ],
+            "submenu": [
+                {
+                    "url": "config/centro-custo",
+                    "name": "Centros de Custo",
+                    "icon": "circle",
+                    "slug": "centro-custo"
+                },
+                {
+                    "url": "config/fundacao",
+                    "name": "Fundações",
+                    "icon": "circle",
+                    "slug": "fundacao"
+                },
+                {
+                    "url": "config/tipo-projeto",
+                    "name": "Tipos de Projetos",
+                    "icon": "circle",
+                    "slug": "tipo-projeto"
+                }
+            ]
+        },
+        {
+            "name": "Usuários",
+            "icon": "user",
+            "slug": "",
+            "permission": [
+                "usuarios"
+            ],
+            "submenu": [
+                {
+                    "url": "users/novo",
+                    "permission": [
+                        "criar usuarios",
+                        "editar usuarios"
+                    ],
+                    "name": "Cadastro",
+                    "icon": "circle",
+                    "slug": "user-novo|user-show"
+                },
+                {
+                    "url": "users",
+                    "permission": [
+                        "ler usuarios"
+                    ],
+                    "name": "Listagem",
+                    "icon": "circle",
+                    "slug": "user-list|users"
+                },
+                {
+                    "name": "Minha Conta",
+                    "icon": "circle",
+                    "slug": "",
+                    "submenu": [
+                        {
+                            "url": "minha-conta",
+                            "name": "Dados da Conta",
+                            "slug": "minha-conta"
+                        },
+                        {
+                            "url": "minha-conta/senha",
+                            "name": "Troca Senha",
+                            "slug": "minha-senha"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Controle de Acesso",
+            "icon": "shield",
+            "slug": "",
+            "permission": [
+                "niveis",
+                "permissoes"
+            ],
+            "submenu": [
+                {
+                    "url": "users/niveis",
+                    "permission": [
+                        "criar niveis",
+                        "editar niveis",
+                        "ler niveis",
+                        "editar niveis"
+                    ],
+                    "name": "Níveis",
+                    "icon": "circle",
+                    "slug": "niveis"
+                },
+                {
+                    "url": "users/permissoes",
+                    "permission": [
+                        "criar permissoes",
+                        "editar permissoes",
+                        "ler permissoes",
+                        "editar permissoes"
+                    ],
+                    "name": "Permissões",
+                    "icon": "circle",
+                    "slug": "permissoes"
+                }
+            ]
+        },
+        {
+            "navheader": "Cadastros",
+            "slug": ""
+        },
+        {
+            "name": "Cadastro Gerais",
+            "icon": "database",
+            "slug": "",
+            "permission": [
+                "clientes",
+                "profissionais",
+                "ativos",
+                "energia"
+            ],
+            "submenu": [
+                {
+                    "name": "Clientes",
+                    "url": "clientes",
+                    "permission": [
+                        "clientes"
+                    ],
+                    "icon": "users",
+                    "slug": "cliente-list"
+                },
+                {
+                    "name": "Profissionais",
+                    "url": "profissionais",
+                    "permission": [
+                        "criar profissionais",
+                        "editar profissionais",
+                        "ler profissionais",
+                        "editar profissionais"
+                    ],
+                    "icon": "circle",
+                    "slug": "pro-list"
+                },
+                {
+                    "name": "Ativos",
+                    "url": "ativos",
+                    "permission": [
+                        "criar ativos",
+                        "editar ativos",
+                        "ler ativos",
+                        "editar ativos"
+                    ],
+                    "icon": "circle",
+                    "slug": "ativos-list"
+                },
+                {
+                    "name": "Custo Energia",
+                    "url": "custo-energia",
+                    "permission": [
+                        "criar energia",
+                        "editar energia",
+                        "ler energia",
+                        "editar energia"
+                    ],
+                    "icon": "circle",
+                    "slug": "energia-list"
+                }
+            ]
+        }
+    ]
+}
